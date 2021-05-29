@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Michelle // portfolio-A WORK IN PROGRESS</title>
+  <link rel="stylesheet" href="reset.css" />
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet" />
+  <!-- materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <!-- nav -->
+  <div class="navbar-fixed">
+    <nav>
+
+      <div class="nav-wrapper" id="nav">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <div class="brand-logo center" id="name">
+          <h2> Michelle Berta</h2>
+        </div>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="#home">
+              <h4>Home</h4>
+            </a></li>
+          <li><a href="#my-work">
+              <h4>My Work</h4>
+            </a></li>
+          <li><a href="#about-me">
+              <h4>About Me</h4>
+            </a></li>
+          <li>
+            <a class="dropdown-trigger" href="#contact" data-target="dropdown1"><i class="material-icons right">arrow_drop_down</i>
+              <h4>Contact Me</h4>
+            </a>
+          </li>
+        </ul>
+        <ul id="dropdown1" class="dropdown-content">
+          <li class="dropdown"><a href="https://linkedin.com/in/michelle-berta" target="-blank">
+              <h5>LinkedIn</h5>
+            </a></li>
+          <li class="dropdown"><a href="mailto:bertafamily@sbcglobal.net" target="_blank">
+              <h5>Email</h5>>
+            </a></li>
+          <li class="dropdown"><a href="https://github.com/MichelleBerta?tab=repositories" target="_blank">
+              <h5>Github</h5>
+            </a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li class="dropdown"><a href="#home">Home</a></li>
+      <li class="dropdown"><a href="#my-work">My Work</a></li>
+      <li class="dropdown"><a href="#about-me">About Me</a></li>
+      <li class="dropdown"><a href="#contact">Contact me</a></li>
+    </ul>
+  </div>
+
+  <!-- intro images -->
+  <div class="container dark" id="home">
+    <div class="row">
+      <div class="grid-example col l4 m12 s12 welcome">
+        <h1>Hi! <br />I'm Michelle<br /></h1>
+        <img src="assets/images/headshot copy.jpg" class="img-fluid rounded mx-auto d-block" id="headshot" alt="headshot of Michelle in red dress" />
+      </div>
+      <div class="grid-example col l8 m12 s12">
+          <div class="switch">
+            <input type="checkbox">
+            <span class="lever"></span>
+          </div>
+          <div class="row toggle">
+            <label class="switch col">
+              <input type="checkbox" id="theme-switcher">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <!--intro images for workspace - row 1-->
+          <div class="row">
+          <div class="col s4 purple-text text-darken-2">
+            <!-- Magnifying Glass Modal Trigger -->
+              <a class="waves-effect waves-light deep-purple lighten-1 btn modal-trigger" href="#modal1">Magnifying Glass</a>
+
+              <!-- Magnifying Glass Modal Structure -->
+              <div id="modal1" class="modal">
+                <div class="modal-content">
+                  <h4>Magnifying Glass</h4>
+                  <p>There's nothing better than solving a good mystery!</p>
+                </div>
+              </div>
+          
+          <img class="responsive-img" id="left-books" src="assets/images/graphics/Books.svg" alt="bookshelf"/>
+          
+          <img class="responsive-img" id="magnifying-glass" src="assets/images/graphics/magnifying-glass.svg" alt="magnifying-glass"/>
+          
+          </div>
+          <div class="col s4 purple-text text-darken-2">
+          <img class="responsive-img" id="Beethoven" src="assets/images/graphics/Ludwig-van-Beethoven.svg" alt="photo of Beethoven"/>
+           <!-- Beethoven Modal Trigger -->
+           <a class="waves-effect waves-light deep-purple lighten-1 btn modal-trigger" href="#modal2">Beethoven</a>
+
+           <!-- Books Modal Structure -->
+           <div id="modal2" class="modal">
+             <div class="modal-content">
+               <h4>Beethoven</h4>
+               <p>The piano is a glorious instrument. Beethoven's Piano Sonata "Patetique" is one of my favorite pieces. </p>
+             </div>
+           </div>
+          </div>
+          <div class="col s4 purple-text text-darken-2">
+          <img class="responsive-img" id="plant" src="assets/images/graphics/Potted-Grass.svg" alt="potted plant"/>
+          <img class="responsive-img" id="right-books" src="assets/images/graphics/Books.svg" alt="bookshelf"/>
+           <!-- Books Modal Trigger -->
+           <a class="waves-effect waves-light deep-purple lighten-1 btn modal-trigger" href="#modal3">Books</a>
+
+           <!-- Books Modal Structure -->
+           <div id="modal3" class="modal">
+             <div class="modal-content">
+               <h4>Books</h4>
+               <p>Ask me about what I'm reading now.  I always have a book in my hand.</p>
+             </div>
+           </div>
+          </div>
+          </div>
+          <!--intro images for workspace - row 2-->
+          <div class="row">
+            <div class="col s2 purple-text text-darken-2">
+              <img class="responsive-img" id="lamp" src="assets/images/graphics/leglamp.svg" alt="leglamp glow of electric sex"/>
+              <!-- Leg Lamp Modal Trigger -->
+                <a class="waves-effect waves-light deep-purple lighten-1 btn modal-trigger" href="#modal4">Leg Lamp</a>
+
+                <!-- Leg Lamp Modal Structure -->
+                <div id="modal4" class="modal">
+                  <div class="modal-content">
+                    <h4>Leg Lamp</h4>
+                    <p>The major award from my favorite Christmas movie, A Christmas Story.  I have it in the window so all my neighbors can enjoy it too.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col s5 purple-text text-darken-2">
+              <img class="responsive-img" id="left-monitor" src="assets/images/graphics/monitor-left.svg" alt="monitor"/>
+              <img class="responsive-img" id="mouse" src="assets/images/graphics/mouse.svg" alt="mouse"/>
+            </div>
+            <div class="col s5 purple-text text-darken-2"><img class="responsive-img" id="right-monitor" src="assets/images/graphics/monitor-right.svg" alt="monitor"/></div>
+          </div>
+           <!--intro images for workspace - row 3-->
+          <div class="row">
+            <div class="col s8 purple-text text-darken-2">
+              <h3 class="welcome">
+                Welcome to my workspace. <br />
+                This is where I like to make <br />
+                creations that are fun and interactive.
+                Feel free to take a look around.
+              </h3>
+            </div>
+            <div class="col s4 purple-text text-darken-2">
+              <img class="responsive-img" id="pug" src="assets/images/graphics/pug.svg" alt="pug"/>
+            <!-- Cooper Modal Trigger -->
+              <a class="waves-effect waves-light deep-purple lighten-1 btn modal-trigger" href="#modal5">Cooper</a>
+
+              <!-- Cooper Modal Structure -->
+              <div id="modal5" class="modal">
+                <div class="modal-content">
+                  <h4>This is Cooper!</h4>
+                  <p>He is my loyal work buddy, always at my feet while I code to keep them warm</p>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- work -->
+
+    <div class="main">
+      <div class="row">
+        <div class="grid-example col l4 m12 s12" id="my-work">
+          <h3 id="section-title">Take a Look at My Work</h3>
+          <ul class="collapsible popout">
+
+            <!-- quiz -->
+            <li>
+              <h4>
+                <div class="collapsible-header card-title">
+                  <i class="material-icons">description</i>Coding Quiz
+                </div>
+              </h4>
+              <div class="collapsible-body card">
+                <div class="card-image waves-block waves-light">
+                  <img src="assets/images/coding-quiz-challenge.gif" alt="quiz with mulitple choice answers" />
+                </div>
+                <p>This online coding quiz was built by manipulating the DOM.
+                  The user answers a series of multiple choice questions. If a
+                  wrong answer is given time is deducted from the amount of
+                  time remaining. At the end of the quiz the user’s final
+                  time/score and initials are logged. Participants are ranked
+                  according to their score. This project utilized and increased
+                  my knowledge of: event listeners, timers/intervals and
+                  interval clears, text content, local storage, and query
+                  selectors.</p>
+                <a href="https://michelleberta.github.io/coding-quiz-challenge/" target="_blank" class="waves-effect waves-light btn-large hoverable" id="button">Take a Coding Quiz</a>
+              </div>
+            </li>
+            <!-- weather -->
+            <li>
+              <h4>
+                <div class="collapsible-header card-title">
+                  <i class="material-icons">description</i>Weather Dashboard
+                </div>
+              </h4>
+              <div class="collapsible-body card">
+                <div class="card-image waves-block waves-light" id="weather">
+                  <img src="assets/images/weather-dashboard-screenshot.png" alt="display of current weather and forecast" />
+                </div>
+                <p>This weather dashboard runs in the browser and features
+                  dynamically updated HTML and CSS.
+                </p>
+                <a href="https://michelleberta.github.io/weather-dashboard/" target="_blank" class="waves-effect waves-light btn-large hoverable" id="button">Check the Weather</a>
+              </div>
+            </li>
+
+            <!-- scheduler -->
+            <li>
+              <h4>
+                <div class="collapsible-header card-title">
+                  <i class="material-icons">description</i>Work Day Scheduler
+                </div>
+              </h4>
+              <div class="collapsible-body card">
+                <div class="card-image waves-block waves-light">
+                  <img class="activator" src="assets/images/work-day-scheduler.gif" alt="calendar with to do list" />
+                </div>
+                <p>This simple calendar application allows a user to save
+                  events for each hour of the day by modifying starter code.
+                  The app runs in the browser and features dynamically updated
+                  HTML and CSS powered by jQuery.</p>
+                <a href="https://michelleberta.github.io/work-day-scheduler/" target="_blank" class="waves-effect waves-light btn-large hoverable" id="button">Create A To Do</a>
+              </div>
+            </li>
+
+
+            <!-- password -->
+            <li>
+              <h4>
+                <div class="collapsible-header card-title">
+                  <i class="material-icons">description</i>Password Generator
+                </div>
+              </h4>
+              <div class="collapsible-body card">
+                <div class="card-image waves-block waves-light">
+                  <img class="activator" src="assets/images/password-generator.png" alt="button to generate a password" />
+                </div>
+                <p>This application is a random password generator. Using
+                  prompts the generator asks the user five
+                  questions about the characters to be included.<br />
+
+                  1. how many characters, between 8 - 128,<br />
+                  2. use lower case letters,<br />
+                  3. use upper case letters,<br />
+                  4. use numbers, and<br />
+                  5. use special characters.<br />
+
+                  All of the desired characters are pulled from the ASCII
+                  character table. Through prompts and confirms, the users
+                  responses are stored. Using a for loop, js pulls the needed
+                  number and type of characters. The js file looks to the html
+                  file for when to begin generating the password and where to
+                  display it once it is created.</p>
+                <a href="https://michelleberta.github.io/password-generator/" target="_blank" class="waves-effect waves-light btn-large hoverable" id="button">Generate a Password</a>
+              </div>
+            </li>
+
+            <!-- watchlist -->
+            <li>
+              <h4>
+                <div class="collapsible-header card-title">
+                  <i class="material-icons">description</i>Movie Watchlist
+                </div>
+              </h4>
+              <!--add new links, paragraph and links-->
+              <div class="collapsible-body card">
+                <div class="card-image waves-block waves-light">
+                  <img class="activator" src="assets/images/ultimate-movie-watchlist.png" alt="yellow background with movie popcorn surrounded by movie reel and film" />
+                </div>
+
+                <p>
+                  Introducing Your Ultimate Movie Watchlist, the app that allows you to make a list of movies you want to. Make and get recommendations from your friends. Keep track of them your
+                  personal watchlist.<br />
+                  We built Your Ultimate Movie Watchlist using the following technologies:<br />
+                  * CSS Framework: Bootstrap<br />
+                  * Node.js<br />
+                  * Express.js<br />
+                  * Handlebars.js<br />
+                  * MySQL<br />
+                  * Sequelize ORM<br />
+                  * MVC Paradigm<br />
+                  * Method-Override <br />
+
+                  We want to add the following features...<br />
+                  * The ability for users to invite friends to join a movie-list group and only users within the friend group can view and comment on friends’ watched and unwatched movies.<br />
+                  * Get the third-party API call running so we can get other data such as synopsis, ratings, critic scores and images.<br />
+                  * Get Passport.js working with LocalStrategy as well as with Google, Facebook, possibly Twitter.<br />
+
+                </p>
+
+                <a href="https://glacial-hollows-98883.herokuapp.com/" target="_blank" class="waves-effect waves-light btn-large hoverable" id="button">Amazing Movie Watchlist</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!--About Me-->
+
+        <div class="grid-example col l8 m12 s12" id="about-me">
+          <div class="card">
+            <h3 id="section-title">A Little About Me</h3>
+            <div class="card-content">
+              <p class="card-text">
+                After recently becoming an empty nester, I decided to take
+                on a whole new role in life. I spent twenty one years
+                working part time as an office manager while my children
+                were in school. Now I am looking for a career that I will
+                find fulfilling as a web developer. As a coding boot camp
+                student at SMU, I am grateful for this chance to learn new
+                technology and face new challenges and adventures. In
+                class I am learning the basics of HTML, CSS and
+                JavaScript. Adding this knowledge to the skills I learned
+                raising three children and running an office, to be task
+                oriented and excellent at time management, will make me a
+                valuable employee to any company. I am excited for the
+                opportunity to take the skills I have been taught and
+                apply them.
+                <br />
+                <br />
+                On a personal note, entertaining and being creative are my
+                favorite pass times. An example of this passion is the
+                Live Clue game I created using my entire home for the game
+                board. In addition, I love pugs, swing dancing, escape
+                rooms, Italy, meeting new people and solving a good
+                mystery.
+                <br />
+                <br />
+
+                <a href="assets/Michelle-Berta-resume.pdf" target="_blank" class="waves-effect waves-light btn-large hoverable" id="button"><i class="material-icons right">description</i>See My
+                  Resume</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="carousel">
+        <div class="carousel grid-example col l12 m12 s12 ">
+          <a class="carousel-item" href="#one!"><img class="materialboxed" width="350" src="assets/images/Clue.jpg" alt="friends dressed as Clue characters" /></a>
+          <a class="carousel-item" href="#two!"><img class="materialboxed" width="350" src="assets/images/Live Clue.jpg" alt="table set with large pawns and Clue accessories" /></a>
+          <a class="carousel-item" href="#three!"><img class="materialboxed" width="350" src="assets/images/Sad-pug.jpg" alt="a pug smiling up a camera" /></a>
+          <a class="carousel-item" href="#four!"><img class="materialboxed" width="350" src="assets/images/Italy.jpg" alt="the Colosseum, in Rome at dusk" /></a>
+          <a class="carousel-item" href="#five!"><img class="materialboxed" width="350" src="assets/images/swing dance 2.jpg" alt="couple swing dancing" /></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="page-footer" id="footer">
+    <div class="row" id="contact">
+      <div class="col l6 s12">
+        <h3 class="white-text">Contact Me</h3>
+        <h4>I look forward to connecting with you.
+        </h4>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h3 class="white-text">
+          Links</h3>
+        <h5>
+          <ul>
+            <li>
+              <a class="grey-text text-lighten-3">Phone: 469-358-0710</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="mailto:bertafamily@sbcglobal.net" target="_blank">Email</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://linkedin.com/in/michelle-berta" target="-blank">LinkedIn</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://github.com/MichelleBerta?tab=repositories" target="_blank">Github</a>
+            </li>
+          </ul>
+        </h5>
+      </div>
+    </div>
+  </footer>
+  <!-- scripts -->
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Materialize -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

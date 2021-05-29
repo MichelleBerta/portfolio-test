@@ -1,0 +1,245 @@
+* {
+  font-family: "Patrick Hand", cursive;
+  --purple: #a565e0;
+  --charcoal: #39373b;
+  --mint: #46f2db;
+  --light: #f8f9fa;
+  --pink: #f5bff5;
+  --yellow: #f5f3bf;
+}
+
+body {
+  background-color: var(--pink);
+}
+
+nav {
+  background-color: var(--purple);
+  padding-bottom: 8rem;
+}
+
+.brand-logo h2 {
+  font-family: "Pacifico", cursive;
+}
+
+nav,
+a {
+  text-decoration: none;
+}
+
+nav,
+a:hover {
+  color: var(--mint);
+}
+
+.dropdown {
+  background-color: var(--mint);
+}
+
+h5 {
+  color: var(--purple);
+}
+
+h1::before {
+  content: " 👋 ";
+}
+
+h1 {
+  text-align: center;
+  transform: rotate(-8deg);
+  font-family: "Pacifico", cursive;
+}
+#home {
+  margin-top: 75px;
+}
+
+#section-title {
+  text-align: center;
+}
+
+/* Row 1 of workspace images */
+#left-books {
+  max-width: 83%;
+  margin-top: -18%;
+}
+
+#magnifying-glass {
+  max-width: 35%;
+  margin-left: 62%;
+  margin-top: -43%
+}
+
+#Beethoven {
+  max-width: 64%;
+  margin-left: 14%;
+  margin-top: -27%;
+}
+
+#plant {
+  max-width: 38%;
+  margin-bottom: -17%;
+}
+
+#right-books {
+  max-width: 83%;
+  margin-left: 17%;
+  margin-top: -40%
+}
+
+/* Row 2 of workspace images */
+#left-monitor {
+  max-width: 83%;
+  margin-top: 23%;
+}
+
+#right-monitor {
+  max-width: 83%;
+  margin-top: 24%;
+  margin-right: 10%
+}
+
+#mouse {
+  max-width: 11%;
+}
+
+/* Row 3 of workspace images */
+#pug {
+  max-width: 50%;
+  margin-top: 30%;
+}
+
+
+#workspace {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+
+
+#headshot {
+  max-width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+}
+
+/* my work cards and about me */
+
+.work-header {
+  text-align: center;
+}
+
+p {
+  font-size: x-large;
+  line-height: 140%;
+}
+
+span {
+  font-size: x-large;
+}
+
+#button {
+  max-width: fit-content;
+  display: block;
+  margin: auto;
+}
+
+.carousel {
+  overflow: visible;
+}
+
+/* DARK MODE */
+.dark,
+.dark .card-title,
+.dark .card {
+  background-color: var(--charcoal);
+}
+
+.dark #section-title,
+.dark #button {
+  color: var(--charcoal);
+}
+
+.dark h1,
+.dark h3,
+.dark .card,
+.dark .card-title {
+  color: var(--mint);
+}
+
+.dark .main {
+  background-color: var(--purple);
+}
+
+.dark #button,
+.dark #section-title {
+  background-color: var(--mint);
+}
+
+/* BRIGHT MODE */
+
+.bright,
+.bright .card-title,
+.bright .card {
+  background-color: var(--light);
+}
+
+.bright #section-title,
+.bright #button {
+  color: var(--light);
+}
+
+.bright h1,
+.bright h3,
+.bright .card,
+.bright .card-title {
+  color: var(--purple);
+}
+
+.bright .main {
+  background-color: var(--mint);
+}
+
+.bright #button,
+.bright #section-title {
+  background-color: var(--purple);
+}
+
+/* footer */
+
+#footer {
+  background-color: var(--purple);
+  color: white
+}
+
+/* switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin: 15px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: var(--purple);
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: var(--pink);
+}
+
+
+
