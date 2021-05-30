@@ -4,7 +4,7 @@
   --charcoal: #39373b;
   --mint: #46f2db;
   --light: #f8f9fa;
-  --pink: #f5bff5;
+  --pink: #f1d4f1;
   --yellow: #f5f3bf;
 }
 
@@ -65,7 +65,7 @@ h1 {
 #magnifying-glass {
   max-width: 35%;
   margin-left: 62%;
-  margin-top: -43%
+  margin-top: -43%;
 }
 
 #Beethoven {
@@ -82,7 +82,7 @@ h1 {
 #right-books {
   max-width: 83%;
   margin-left: 17%;
-  margin-top: -40%
+  margin-top: -40%;
 }
 
 /* Row 2 of workspace images */
@@ -94,7 +94,7 @@ h1 {
 #right-monitor {
   max-width: 83%;
   margin-top: 24%;
-  margin-right: 10%
+  margin-right: 10%;
 }
 
 #mouse {
@@ -107,14 +107,11 @@ h1 {
   margin-top: 30%;
 }
 
-
 #workspace {
   max-width: 100%;
   display: block;
   margin: auto;
 }
-
-
 
 #headshot {
   max-width: 80%;
@@ -209,7 +206,7 @@ span {
 
 #footer {
   background-color: var(--purple);
-  color: white
+  color: white;
 }
 
 /* switch */
@@ -240,6 +237,3 @@ span {
 input:checked + .slider {
   background-color: var(--pink);
 }
-
-
-
